@@ -11,4 +11,4 @@ ENV ALLOW_ORIGIN=*
 EXPOSE 2358
 
 # Run the Judge0 API service
-CMD ["./scripts/run.sh"]
+CMD ["/scripts/run.sh"]
