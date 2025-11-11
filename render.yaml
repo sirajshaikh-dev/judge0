@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: judge0
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 2358
+      - key: ENABLED_LANGUAGES
+        value: all
+      - key: ALLOW_ORIGIN
+        value: "*"
